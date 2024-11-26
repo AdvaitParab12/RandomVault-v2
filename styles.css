@@ -15,7 +15,6 @@ body {
   width: 100vw;
   flex-direction: column;
   font-family: "Poppins";
-  /* background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%); */
 }
 
 h1 {
@@ -34,7 +33,6 @@ p {
 }
 
 .display-pass{
-  /* background-color: white; */
   height:3rem;
   width:29rem;
   border-radius: 2rem;
@@ -184,4 +182,61 @@ input[type="checkbox"]:checked + label::after {
   bottom: 0;
   left: 34rem;
   right: 0;
+}
+
+
+@media (max-width: 730px) {
+  h1 {
+    font-size: 2.2rem; 
+    text-align: center;
+  }
+  .des{
+    font-size: 0.6rem;
+  }
+  .display-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    width: 100%;
+    gap: 1rem;
+  }
+  .display-pass{
+    width:23rem;
+  }
+  .strength{
+    width:7rem;
+  }
+  .random-pass{
+    width: 8rem;
+  }
+  .length-slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    margin: 0;
+  }
+  .pass-lenth{
+    text-align: center;
+    margin-left: 8rem;
+    width: 100%;
+  }
+  .options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+  }
+  .options > p{
+    margin-left: 4rem;
+  }
+
 }
