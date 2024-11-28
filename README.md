@@ -16,10 +16,6 @@
 ## Preview
 
 
-<div style="display:flex;flex-direction:row;align-items:center;justify-content:center">
-  ![image](./assets/randomVault-front.png)
-  <img src="./assets/Mobile.png" alt="Mobile Image" style="width: 300px; height: auto;">
-</div>
 
 <div style="display:flex;flex-direction:row;align-items:center;justify-content:center">
 <img src="./assets/randomVault-front.png" alt="Laptop Image" style="width: 600px; height: auto;">
